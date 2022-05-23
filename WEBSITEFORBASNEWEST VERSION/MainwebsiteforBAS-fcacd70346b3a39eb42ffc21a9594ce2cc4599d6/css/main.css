@@ -181,17 +181,30 @@ portfolio-container a img {
   margin-bottom: 2em;
 }
 
-.newfooter {
-  background-color: #FFBF3A;
+.MYFOOTER {
   width: 100%;
-  height: 8em;
+  height: 15%;
+  background-color: #F5BD48;
+  position: absolute;
+  display: inline;
+  overflow: visible;
 }
 
-.newfooter p {
+.MYFOOTER P {
+  margin-top: 3EM;
+  margin-left: 2em;
   text-transform: uppercase;
-  color: white;
-  text-align: center;
-  padding-top: 3em;
+  display: inline-block;
+}
+
+.MYFOOTER img {
+  display: NONE;
+  width: auto;
+  height: 10em;
+  float: right;
+  position: relative;
+  bottom: 7.05em;
+  margin-right: 0;
 }
 
 @media only screen and (min-width: 800px) {
@@ -212,7 +225,6 @@ portfolio-container a img {
   .right {
     margin-left: 6em;
     margin-top: 1em;
-    overflow: visible;
   }
   .skills {
     margin-top: -5em;
@@ -233,68 +245,32 @@ portfolio-container a img {
     margin-left: 2em;
     margin-bottom: 2em;
   }
-  .newfooter {
-    position: absolute;
-    background-color: #FFBF3A;
+  .MYFOOTER {
     width: 100%;
-    height: 10em;
+    height: 15%;
+    background-color: #F5BD48;
+    position: absolute;
+    display: inline;
     overflow: visible;
   }
-  .newfooter p {
+  .MYFOOTER P {
+    margin-top: 3EM;
+    margin-left: 2em;
     text-transform: uppercase;
-    color: white;
-    text-align: left;
-    padding-left: 2.7em;
-    width: 5em;
-    display: inline;
-    position: relative;
-    top: 45%;
+    display: inline-block;
   }
-  .newfooter .beans {
-    width: 281px;
-    height: 214.5px;
-    position: relative;
-    display: inline;
+  .MYFOOTER img {
+    display: inline-block;
+    width: auto;
+    height: 10em;
     float: right;
-    z-index: 10;
-    bottom: 34%;
-    right: 2%;
-    padding-bottom: 0;
-    margin: 0;
+    position: relative;
+    bottom: 1.50em;
+    margin-right: 0;
   }
 }
 
 @media only screen and (min-width: 1050px) {
-  .newfooter {
-    position: absolute;
-    background-color: #FFBF3A;
-    width: 100%;
-    height: 10em;
-    overflow: visible;
-  }
-  .newfooter p {
-    text-transform: uppercase;
-    color: black;
-    text-align: left;
-    padding-left: 2.7em;
-    width: 5em;
-    display: inline;
-    position: relative;
-    top: 45%;
-    left: 14%;
-  }
-  .newfooter .beans {
-    width: 281px;
-    height: 214.5px;
-    position: relative;
-    display: inline;
-    float: right;
-    z-index: 10;
-    bottom: 34%;
-    right: 17%;
-    padding-bottom: 0;
-    margin: 0;
-  }
   .hero {
     height: 90vh;
   }
@@ -362,6 +338,29 @@ portfolio-container a img {
   .portfolio img {
     float: right;
     max-width: 500px;
+  }
+  .MYFOOTER {
+    width: 100%;
+    height: 15%;
+    background-color: #F5BD48;
+    position: absolute;
+    display: inline;
+    overflow: visible;
+  }
+  .MYFOOTER P {
+    margin-top: 3EM;
+    margin-left: 20em;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .MYFOOTER img {
+    display: inline-block;
+    width: auto;
+    height: 10em;
+    float: right;
+    position: relative;
+    bottom: 1.30em;
+    margin-right: 20em;
   }
 }
 
